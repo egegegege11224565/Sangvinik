@@ -33,3 +33,16 @@ body {
                  0 0 20px #c3fe00, 
                  0 0 40px #4facfe;
 }
+
+a {
+
+    color: rgb(182, 14, 53);
+}
+a:visited{
+color: rgb(107, 181, 27);
+
+}
+
+a:hover, a:active {
+color:#5a968a;
+}
