@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os, random, time
 
 load_dotenv()
-vk_session = vk_api.VkApi(token=os.getenv("VK_TOKEN"))
+vk_session = vk_api.VkApi(token=os.getenv("vk1.a.ORK-q8MiiJvXmlGpz1wvb_vIU3fJvugfWCAf1Tcl0vp2Mhqh5CsaEQgZOFlOJjj0Gqq18Dax6zm2gRRO6AAXRT2ybqSb3e9vd6uCEJqslTq_41L-o0vQrZYeMlmpPDbcM9-JOPSurlPFReMcDcPm2IwyjAQNfaP-4KExSFZXBSDZkHzsApEABC5-nBpyWJ7AOwRXyQ8UOoN4_fZesxN8JA"))
 vk = vk_session.get_api()
 longpoll = VkLongPoll(vk_session)
 
